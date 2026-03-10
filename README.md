@@ -5,9 +5,3 @@
 - **Task 2**: [EC2 Instance](http://3.85.245.170)
 - **Task 3**: [API Gateway](https://7jf4umu9ej.execute-api.us-east-1.amazonaws.com/default/mohitb-serverless-function)
 - **Task 4**: [Docker/EC2](http://44.200.147.89)
-
-## Test API (Task 3)
-```bash
-curl -X POST https://7jf4umu9ej.execute-api.us-east-1.amazonaws.com/default/mohitb-serverless-function \
-  -H "Content-Type: application/json" \
-  -d '{"message":"Hello","created_by":"Mohit"}'
