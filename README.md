@@ -1,5 +1,13 @@
-## Tasks
-- [Task 1: AWS Lambda Function](01_Task1_AWS_Lambda.pdf)
-- [Task 2: API Gateway Setup](02_Task2_API_Gateway.pdf)
-- [Task 3: Docker Image](03_Task3_Docker.pdf)
-- [Task 4: Final Report](04_Task4_Final.pdf)
+# AWS Cloud Serverless Project 🚀
+
+## Live Endpoints
+- **Task 1**: [AWS Lambda](https://staging.d1sjq38ksu57mu.amplifyapp.com/)
+- **Task 2**: [EC2 Instance](http://3.85.245.170)
+- **Task 3**: [API Gateway](https://7jf4umu9ej.execute-api.us-east-1.amazonaws.com/default/mohitb-serverless-function)
+- **Task 4**: [Docker/EC2](http://44.200.147.89)
+
+## Test API (Task 3)
+```bash
+curl -X POST https://7jf4umu9ej.execute-api.us-east-1.amazonaws.com/default/mohitb-serverless-function \
+  -H "Content-Type: application/json" \
+  -d '{"message":"Hello","created_by":"Mohit"}'
